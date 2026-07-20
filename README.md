@@ -22,15 +22,10 @@ While stepping through the code in GDB, `EBX` increases from 0 to 10 while `ECX`
 
 ## Fibonacci
 
-The program begins with 0 and 1. It repeats the Fibonacci calculation 10 times.
-
-```text
-0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55
-```
+The program begins with `EAX = 0` and `EBX = 1`. It performs 10 loop iterations using `ECX`. After the tenth iteration, the final value stored in `EAX` is 55.
 
 ```text
 fib_result = 55
-```
 
 ## Integer Array
 
