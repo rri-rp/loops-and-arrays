@@ -26,6 +26,7 @@ The program begins with `EAX = 0` and `EBX = 1`. It performs 10 loop iterations 
 
 ```text
 fib_result = 55
+```
 
 ## Integer Array
 
